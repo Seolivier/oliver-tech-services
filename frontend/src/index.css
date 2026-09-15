@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* accounts for sticky header height */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #0a1128;
+}
+

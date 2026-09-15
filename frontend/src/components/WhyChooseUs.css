@@ -1,0 +1,51 @@
+.why-us {
+  background: #0a1128;
+  padding: 70px 20px;
+  color: #fff;
+}
+
+.why-us-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-us h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.why-us-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.why-us-card {
+  background: #131f3e;
+  border: 1px solid #1e2a4a;
+  border-radius: 12px;
+  padding: 30px 20px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.why-us-card:hover {
+  transform: translateY(-4px);
+  border-color: #00c6ff;
+}
+
+.why-us-icon {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+.why-us-card h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.why-us-card p {
+  font-size: 14px;
+  color: #a9b7d1;
+}
+
