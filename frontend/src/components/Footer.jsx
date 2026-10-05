@@ -7,11 +7,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-brand">
-  <svg className="logo-icon" width="26" height="26" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="32" height="32" rx="8" fill="#00c6ff"/>
-    <path d="M16 6L9 17H15L14 26L23 14H17L16 6Z" fill="#0a1128"/>
-  </svg>
+       <div className="footer-brand">
   <div>
             <h3>Oliver Tech Services</h3>
             <p>Fast Help. Smart Solutions.</p>

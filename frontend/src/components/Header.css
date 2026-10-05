@@ -28,8 +28,9 @@
 }
 
 .logo h1 {
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
+  letter-spacing: -0.3px;
 }
 
 .logo p {
