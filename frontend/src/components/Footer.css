@@ -20,11 +20,10 @@
   align-items: center;
   gap: 10px;
 }
-
 .footer-brand .logo-icon {
-  font-size: 24px;
-  color: #00c6ff;
+  flex-shrink: 0;
 }
+
 
 .footer-brand h3 {
   font-size: 16px;
