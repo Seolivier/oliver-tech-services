@@ -23,7 +23,7 @@ function Contact({ selectedService }) {
     setStatus('sending');
 
     try {
-     const res = await fetch('https://backend-ten-amber-36.vercel.app/api/contact', {
+     const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
