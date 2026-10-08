@@ -23,7 +23,7 @@ function Contact({ selectedService }) {
     setStatus('sending');
 
     try {
-     const res = await fetch('/api/contact', {
+      const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -44,7 +44,7 @@ function Contact({ selectedService }) {
       <div className="contact-container">
         <div className="contact-info">
           <h2>Need Help? Get in Touch</h2>
-          <p>Call, WhatsApp, or send us a message — we respond fast.</p>
+          <p>Call, WhatsApp, email, or send us a message — we respond fast.</p>
 
           <div className="contact-detail">
             <span>📞</span>
@@ -55,6 +55,10 @@ function Contact({ selectedService }) {
             <a href="https://wa.me/250781843337" target="_blank" rel="noopener noreferrer">
               WhatsApp Us
             </a>
+          </div>
+          <div className="contact-detail">
+            <span>✉️</span>
+            <a href="mailto:mupenziolivier@gmail.com">mupenziolivier@gmail.com</a>
           </div>
           <div className="contact-detail">
             <span>📍</span>
@@ -107,6 +111,8 @@ function Contact({ selectedService }) {
 }
 
 export default Contact;
+
+
 
 
 
