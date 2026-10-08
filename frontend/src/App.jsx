@@ -5,6 +5,7 @@ import Services from './components/Services.jsx';
 import WhyChooseUs from './components/WhyChooseUs.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import WhatsAppButton from './components/WhatsAppButton.jsx';
 import './App.css';
 
 function App() {
@@ -26,10 +27,12 @@ function App() {
       <WhyChooseUs />
       <Contact selectedService={selectedService} />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
 
 export default App;
+
 
 

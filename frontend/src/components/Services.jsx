@@ -35,11 +35,21 @@ const services = [
 ];
 
 function Services({ onServiceClick }) {
+  const handleKey = (e, title) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onServiceClick(title);
+    }
+  };
+
   return (
     <section className="services" id="services">
       <div className="services-container">
+        <span className="section-tag">What we do</span>
         <h2>Our Services</h2>
-        <p className="services-subtitle">Everything you need, all in one place</p>
+        <p className="services-subtitle">
+          Everything you need, all in one place. Tap a service to request it.
+        </p>
 
         <div className="services-grid">
           {services.map((s, i) => (
@@ -47,6 +57,7 @@ function Services({ onServiceClick }) {
               className="service-card"
               key={i}
               onClick={() => onServiceClick(s.title)}
+              onKeyDown={(e) => handleKey(e, s.title)}
               role="button"
               tabIndex={0}
             >
@@ -61,6 +72,7 @@ function Services({ onServiceClick }) {
         <div
           className="irembo-card"
           onClick={() => onServiceClick('Irembo Services')}
+          onKeyDown={(e) => handleKey(e, 'Irembo Services')}
           role="button"
           tabIndex={0}
         >
@@ -68,8 +80,12 @@ function Services({ onServiceClick }) {
           <div className="irembo-icon">🏛️</div>
           <div className="irembo-text">
             <h3>Irembo Services</h3>
-            <p>NID, Birth Certificate, Driving License, Police Clearance, Good Conduct, TAX, RRA, EBM, RSB & more.</p>
+            <p>
+              NID, Birth Certificate, Driving License, Police Clearance, Good
+              Conduct, TAX, RRA, EBM, RSB & more.
+            </p>
           </div>
+          <span className="irembo-cta">Request this →</span>
         </div>
       </div>
     </section>
@@ -77,4 +93,5 @@ function Services({ onServiceClick }) {
 }
 
 export default Services;
+
 

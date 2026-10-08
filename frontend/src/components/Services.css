@@ -1,6 +1,6 @@
 .services {
   background: #0d1730;
-  padding: 70px 20px;
+  padding: 90px 20px;
   color: #fff;
 }
 
@@ -10,96 +10,220 @@
   text-align: center;
 }
 
+.section-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(0, 198, 255, 0.35);
+  border-radius: 999px;
+  background: rgba(0, 198, 255, 0.08);
+  color: #7fdcff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
 .services h2 {
-  font-size: 32px;
-  margin-bottom: 8px;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+  margin-bottom: 10px;
 }
 
 .services-subtitle {
+  max-width: 520px;
+  margin: 0 auto 48px;
   color: #8fa3c8;
-  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px;
   text-align: left;
 }
 
 .service-card {
-  background: #131f3e;
-  border: 1px solid #1e2a4a;
-  border-radius: 12px;
-  padding: 25px;
-  transition: transform 0.2s, border-color 0.2s;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, #15224a 0%, #101b3a 100%);
+  border: 1px solid #1e2c55;
+  border-radius: 16px;
+  padding: 30px 26px 26px;
+  cursor: pointer;
+  transition: transform 0.25s ease, border-color 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
-.service-card:hover {
-  transform: translateY(-4px);
-  border-color: #00c6ff;
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #00c6ff, #4facfe);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover,
+.service-card:focus-visible {
+  transform: translateY(-6px);
+  border-color: rgba(0, 198, 255, 0.55);
+  box-shadow: 0 16px 36px rgba(0, 198, 255, 0.12);
+  outline: none;
+}
+
+.service-card:hover::before,
+.service-card:focus-visible::before {
+  transform: scaleX(1);
 }
 
 .service-icon {
-  font-size: 32px;
-  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  background: rgba(0, 198, 255, 0.1);
+  border: 1px solid rgba(0, 198, 255, 0.25);
+  font-size: 28px;
 }
 
 .service-card h3 {
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
 .service-card p {
-  font-size: 14px;
+  font-size: 14.5px;
   color: #a9b7d1;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
+.service-cta {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #00c6ff;
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover .service-cta {
+  transform: translateX(4px);
+}
+
+/* Irembo banner */
 .irembo-card {
-  margin-top: 30px;
-  background: linear-gradient(135deg, #0a3d62 0%, #145da0 100%);
-  border-radius: 12px;
-  padding: 25px;
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
+  margin-top: 28px;
+  padding: 30px 32px;
   text-align: left;
-  position: relative;
-  border: 1px solid #00c6ff;
+  cursor: pointer;
+  border: 1px solid rgba(0, 198, 255, 0.5);
+  border-radius: 16px;
+  background: linear-gradient(120deg, #0a3d62 0%, #145da0 100%);
+  box-shadow: 0 10px 30px rgba(20, 93, 160, 0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.irembo-card:hover,
+.irembo-card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(20, 93, 160, 0.45);
+  outline: none;
 }
 
 .irembo-badge {
   position: absolute;
-  top: -10px;
-  right: 20px;
+  top: -11px;
+  right: 24px;
   background: #ff6b35;
   color: #fff;
   font-size: 11px;
-  font-weight: 700;
-  padding: 4px 10px;
-  border-radius: 12px;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
 }
 
 .irembo-icon {
-  font-size: 40px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.12);
+  font-size: 36px;
+}
+
+.irembo-text {
+  flex: 1;
 }
 
 .irembo-text h3 {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 800;
   margin-bottom: 6px;
 }
 
 .irembo-text p {
-  font-size: 14px;
-  color: #cfe4ff;
-  line-height: 1.5;
+  font-size: 14.5px;
+  color: #d3e8ff;
+  line-height: 1.6;
 }
 
-@media (max-width: 600px) {
+.irembo-cta {
+  flex-shrink: 0;
+  padding: 11px 20px;
+  border-radius: 10px;
+  background: #fff;
+  color: #0a3d62;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .services {
+    padding: 70px 18px;
+  }
+
+  .services h2 {
+    font-size: 30px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
   .irembo-card {
     flex-direction: column;
     text-align: center;
+    padding: 34px 22px 26px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-card,
+  .irembo-card,
+  .service-cta,
+  .service-card::before {
+    transition: none;
   }
 }
 

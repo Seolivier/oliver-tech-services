@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; /* accounts for sticky header height */
+  scroll-padding-top: 120px; /* accounts for sticky header height */
 }
 
 * {
