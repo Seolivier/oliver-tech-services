@@ -57,9 +57,15 @@ function Contact({ selectedService }) {
             </a>
           </div>
           <div className="contact-detail">
-            <span>✉️</span>
-            <a href="mailto:mupenziolivier@gmail.com">mupenziolivier@gmail.com</a>
-          </div>
+  <span>✉️</span>
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=mupenziolivier@gmail.com&su=Inquiry%20from%20Oliver%20Tech%20Services%20website"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    mupenziolivier@gmail.com
+  </a>
+</div>
           <div className="contact-detail">
             <span>📍</span>
             <p>Kigali, Rwanda</p>
