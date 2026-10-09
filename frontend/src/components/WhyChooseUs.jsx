@@ -28,7 +28,12 @@ function WhyChooseUs() {
   return (
     <section className="why-us" id="why-us">
       <div className="why-us-container">
+        <span className="why-tag">Why Oliver Tech</span>
         <h2>Why Choose Us</h2>
+        <p className="why-subtitle">
+          Simple, honest tech help from people who care about getting it right.
+        </p>
+
         <div className="why-us-grid">
           {reasons.map((r, i) => (
             <div className="why-us-card" key={i}>
@@ -37,6 +42,16 @@ function WhyChooseUs() {
               <p>{r.desc}</p>
             </div>
           ))}
+        </div>
+
+        <div className="why-cta">
+          <div className="why-cta-text">
+            <h3>Need help? We've got you covered!</h3>
+            <p>One call, many solutions. We make it easy.</p>
+          </div>
+          <a href="#contact" className="why-cta-btn">
+            Get in touch
+          </a>
         </div>
       </div>
     </section>
