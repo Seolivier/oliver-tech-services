@@ -1,5 +1,6 @@
 import React from 'react';
 import './WhyChooseUs.css';
+import { Link } from 'react-router-dom';
 
 const reasons = [
   {
@@ -49,9 +50,9 @@ function WhyChooseUs() {
             <h3>Need help? We've got you covered!</h3>
             <p>One call, many solutions. We make it easy.</p>
           </div>
-          <a href="#contact" className="why-cta-btn">
-            Get in touch
-          </a>
+         <Link to="/contact" className="why-cta-btn">
+  Get in touch
+</Link>
         </div>
       </div>
     </section>

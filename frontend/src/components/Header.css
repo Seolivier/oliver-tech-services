@@ -82,4 +82,17 @@
     display: block;
   }
 }
+.nav a.active {
+  color: #00c6ff;
+}
+
+.logo,
+.logo:hover {
+  text-decoration: none;
+}
+
+
+
+
+
 

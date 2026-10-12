@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function Footer() {
@@ -7,17 +8,18 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-       <div className="footer-brand">
-  <div>
+        <div className="footer-brand">
+          <div>
             <h3>Oliver Tech Services</h3>
             <p>Fast Help. Smart Solutions.</p>
           </div>
         </div>
 
         <div className="footer-links">
-          <a href="#services">Services</a>
-          <a href="#why-us">Why Us</a>
-          <a href="#contact">Contact</a>
+          <Link to="/">Home</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </div>
 
         <div className="footer-social">
@@ -34,6 +36,9 @@ function Footer() {
 }
 
 export default Footer;
+
+
+
 
 
 
