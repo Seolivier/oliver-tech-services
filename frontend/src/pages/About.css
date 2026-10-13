@@ -1,8 +1,8 @@
 .about-hero {
   background:
-    linear-gradient(rgba(0, 198, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 198, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(135deg, #060b1f 0%, #0a1128 50%, #14224a 100%);
+    linear-gradient(rgba(16, 185, 129, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 185, 129, 0.04) 1px, transparent 1px),
+    linear-gradient(135deg, #06140e 0%, #0a1f17  50%, #123d2b 100%);
   background-size: 48px 48px, 48px 48px, 100% 100%;
   padding: 100px 20px 80px;
   text-align: center;
@@ -13,10 +13,10 @@
   display: inline-block;
   padding: 6px 14px;
   margin-bottom: 18px;
-  border: 1px solid rgba(0, 198, 255, 0.35);
+  border: 1px solid rgba(16, 185, 129, 0.35);
   border-radius: 999px;
-  background: rgba(0, 198, 255, 0.08);
-  color: #7fdcff;
+  background: rgba(16, 185, 129, 0.08);
+  color: #86efac;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -37,17 +37,17 @@
   margin: 0 auto;
   font-size: 17px;
   line-height: 1.7;
-  color: #b8c4de;
+  color: #b5d0c2;
 }
 
 .about-section {
-  background: #0a1128;
+  background: #0a1f17 ;
   padding: 80px 20px;
   color: #fff;
 }
 
 .about-section-alt {
-  background: #0d1730;
+  background: #0d2a1f;
 }
 
 .about-container {
@@ -72,8 +72,8 @@
 
 .about-step,
 .about-promise {
-  background: linear-gradient(160deg, #15224a 0%, #101b3a 100%);
-  border: 1px solid #1e2c55;
+  background: linear-gradient(160deg, #14382a 0%, #0f2c21 100%);
+  border: 1px solid #1f4d3a;
   border-radius: 16px;
   padding: 30px 22px;
 }
@@ -86,8 +86,8 @@
   height: 46px;
   margin: 0 auto 16px;
   border-radius: 50%;
-  background: linear-gradient(90deg, #00c6ff, #4facfe);
-  color: #07102a;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  color: #04130c;
   font-size: 20px;
   font-weight: 800;
 }
@@ -100,8 +100,8 @@
   height: 56px;
   margin: 0 auto 16px;
   border-radius: 14px;
-  background: rgba(0, 198, 255, 0.1);
-  border: 1px solid rgba(0, 198, 255, 0.25);
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.25);
   font-size: 28px;
 }
 
@@ -114,7 +114,7 @@
 .about-step p,
 .about-promise p {
   font-size: 14.5px;
-  color: #a9b7d1;
+  color: #a7c4b5;
   line-height: 1.6;
 }
 
@@ -123,11 +123,11 @@
   margin-top: 40px;
   padding: 15px 32px;
   border-radius: 10px;
-  background: linear-gradient(90deg, #00c6ff, #4facfe);
-  color: #07102a;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  color: #04130c;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 8px 24px rgba(0, 198, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.3);
   transition: transform 0.2s ease;
 }
 
