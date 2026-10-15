@@ -1,5 +1,5 @@
 .home-teaser {
-  background: #0d2a1f;
+  background: #13397f;
   padding: 80px 20px;
   color: #fff;
 }
@@ -14,10 +14,10 @@
   display: inline-block;
   padding: 6px 14px;
   margin-bottom: 14px;
-  border: 1px solid rgba(16, 185, 129, 0.35);
+  border: 1px solid rgba(0, 198, 255, 0.35);
   border-radius: 999px;
-  background: rgba(16, 185, 129, 0.08);
-  color: #86efac;
+  background: rgba(0, 198, 255, 0.08);
+  color: #7fdcff;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -39,8 +39,8 @@
 }
 
 .teaser-card {
-  background: linear-gradient(160deg, #14382a 0%, #0f2c21 100%);
-  border: 1px solid #1f4d3a;
+  background: linear-gradient(160deg, #1b4a98 0%, #153f86 100%);
+  border: 1px solid #2c5fb3;
   border-radius: 16px;
   padding: 28px 22px;
   transition: transform 0.25s ease, border-color 0.25s ease;
@@ -48,7 +48,7 @@
 
 .teaser-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(16, 185, 129, 0.55);
+  border-color: rgba(0, 198, 255, 0.55);
 }
 
 .teaser-icon {
@@ -59,8 +59,8 @@
   height: 56px;
   margin: 0 auto 16px;
   border-radius: 14px;
-  background: rgba(16, 185, 129, 0.1);
-  border: 1px solid rgba(16, 185, 129, 0.25);
+  background: rgba(0, 198, 255, 0.1);
+  border: 1px solid rgba(0, 198, 255, 0.25);
   font-size: 28px;
 }
 
@@ -71,7 +71,7 @@
 
 .teaser-card p {
   font-size: 14.5px;
-  color: #a7c4b5;
+  color: #c0d0ec;
   line-height: 1.6;
 }
 
@@ -79,8 +79,8 @@
   display: inline-block;
   padding: 13px 26px;
   border-radius: 10px;
-  background: linear-gradient(90deg, #10b981, #34d399);
-  color: #04130c;
+  background: linear-gradient(90deg, #00c6ff, #4facfe);
+  color: #07102a;
   font-weight: 700;
   text-decoration: none;
   transition: transform 0.2s ease;

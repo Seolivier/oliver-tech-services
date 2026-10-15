@@ -1,5 +1,5 @@
 .contact {
-  background: #0d2a1f;
+  background: #13397f;
   padding: 70px 20px;
   color: #fff;
 }
@@ -19,7 +19,7 @@
 }
 
 .contact-info p {
-  color: #a7c4b5;
+  color: #c0d0ec;
   margin-bottom: 25px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .contact-detail a {
-  color: #10b981;
+  color: #00c6ff;
   text-decoration: none;
 }
 
@@ -41,13 +41,13 @@
 }
 
 .contact-detail p {
-  color: #cfe3d8;
+  color: #dce6f7;
   margin: 0;
 }
 
 .contact-form {
-  background: #12332a;
-  border: 1px solid #1f4d3a;
+  background: #173f86;
+  border: 1px solid #2c5fb3;
   border-radius: 12px;
   padding: 30px;
   display: flex;
@@ -61,8 +61,8 @@
 
 .contact-form input,
 .contact-form textarea {
-  background: #0a1f17 ;
-  border: 1px solid #1f4d3a;
+  background: #0f2f6b;
+  border: 1px solid #2c5fb3;
   border-radius: 8px;
   padding: 12px;
   color: #fff;
@@ -74,17 +74,17 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border-color: #10b981;
+  border-color: #00c6ff;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #6f9a85;
+  color: #8ea6d1;
 }
 
 .contact-form button {
-  background: #10b981;
-  color: #0a1f17 ;
+  background: #00c6ff;
+  color: #0f2f6b;
   border: none;
   padding: 14px;
   border-radius: 8px;
