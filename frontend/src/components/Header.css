@@ -1,10 +1,10 @@
 .header {
-  background: #0f2f6b;
+  background: #1b3f78;
   padding: 15px 0;
   position: sticky;
   top: 0;
   z-index: 100;
-  border-bottom: 1px solid #2c5fb3;
+  border-bottom: 1px solid #4a7ab8;
 }
 
 .header-container {
@@ -35,7 +35,7 @@
 
 .logo p {
   font-size: 12px;
-  color: #a9bfe6;
+  color: #b4c8e8;
   margin: 0;
 }
 
@@ -45,14 +45,14 @@
 }
 
 .nav a {
-  color: #dce6f7;
+  color: #e0eaf8;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .nav a:hover {
-  color: #00c6ff;
+  color: #4da3ff;
 }
 
 .menu-toggle {
@@ -71,7 +71,7 @@
     position: absolute;
     top: 70px;
     right: 20px;
-    background: #0f2f6b;
+    background: #1b3f78;
     padding: 15px;
     border-radius: 8px;
   }
@@ -83,7 +83,7 @@
   }
 }
 .nav a.active {
-  color: #00c6ff;
+  color: #4da3ff;
 }
 
 .logo,

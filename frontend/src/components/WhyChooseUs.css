@@ -1,5 +1,5 @@
 .why-us {
-  background: #0f2f6b;
+  background: #1b3f78;
   padding: 90px 20px;
   color: #fff;
 }
@@ -14,10 +14,10 @@
   display: inline-block;
   padding: 6px 14px;
   margin-bottom: 14px;
-  border: 1px solid rgba(0, 198, 255, 0.35);
+  border: 1px solid rgba(77, 163, 255, 0.35);
   border-radius: 999px;
-  background: rgba(0, 198, 255, 0.08);
-  color: #7fdcff;
+  background: rgba(77, 163, 255, 0.08);
+  color: #b3d7ff;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.8px;
@@ -34,7 +34,7 @@
 .why-subtitle {
   max-width: 520px;
   margin: 0 auto 48px;
-  color: #a9bfe6;
+  color: #b4c8e8;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -48,8 +48,8 @@
 .why-us-card {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(160deg, #1b4a98 0%, #153f86 100%);
-  border: 1px solid #2c5fb3;
+  background: linear-gradient(160deg, #2d5fa3 0%, #25518f 100%);
+  border: 1px solid #4a7ab8;
   border-radius: 16px;
   padding: 34px 22px 30px;
   transition: transform 0.25s ease, border-color 0.25s ease,
@@ -63,7 +63,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, #00c6ff, #4facfe);
+  background: linear-gradient(90deg, #4da3ff, #7dbbff);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
@@ -71,8 +71,8 @@
 
 .why-us-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(0, 198, 255, 0.55);
-  box-shadow: 0 16px 36px rgba(0, 198, 255, 0.12);
+  border-color: rgba(77, 163, 255, 0.55);
+  box-shadow: 0 16px 36px rgba(77, 163, 255, 0.12);
 }
 
 .why-us-card:hover::before {
@@ -87,8 +87,8 @@
   height: 62px;
   margin: 0 auto 18px;
   border-radius: 16px;
-  background: rgba(0, 198, 255, 0.1);
-  border: 1px solid rgba(0, 198, 255, 0.25);
+  background: rgba(77, 163, 255, 0.1);
+  border: 1px solid rgba(77, 163, 255, 0.25);
   font-size: 30px;
 }
 
@@ -100,7 +100,7 @@
 
 .why-us-card p {
   font-size: 14.5px;
-  color: #c0d0ec;
+  color: #c6d6ef;
   line-height: 1.6;
 }
 
@@ -113,10 +113,10 @@
   margin-top: 36px;
   padding: 30px 34px;
   text-align: left;
-  border: 1px solid rgba(0, 198, 255, 0.4);
+  border: 1px solid rgba(77, 163, 255, 0.4);
   border-radius: 16px;
-  background: linear-gradient(120deg, #1e56c8 0%, #2f7de1 100%);
-  box-shadow: 0 10px 30px rgba(47, 125, 225, 0.3);
+  background: linear-gradient(120deg, #2a6ac4 0%, #4690e0 100%);
+  box-shadow: 0 10px 30px rgba(70, 144, 224, 0.3);
 }
 
 .why-cta-text h3 {
@@ -135,7 +135,7 @@
   padding: 14px 28px;
   border-radius: 10px;
   background: #fff;
-  color: #1e56c8;
+  color: #2a6ac4;
   font-size: 15px;
   font-weight: 700;
   text-decoration: none;

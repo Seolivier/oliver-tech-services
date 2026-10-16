@@ -2,9 +2,9 @@
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(rgba(0, 198, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 198, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(135deg, #0a2559 0%, #0f2f6b 50%, #1c4a9e 100%);
+    linear-gradient(rgba(77, 163, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(77, 163, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(135deg, #163566 0%, #1b3f78 50%, #2a5a9e 100%);
   background-size: 48px 48px, 48px 48px, 100% 100%;
   color: #fff;
   padding: 110px 20px 100px;
@@ -21,7 +21,7 @@
 .hero-glow-one {
   width: 420px;
   height: 420px;
-  background: rgba(0, 198, 255, 0.22);
+  background: rgba(77, 163, 255, 0.22);
   top: -140px;
   left: -100px;
 }
@@ -46,10 +46,10 @@
   display: inline-block;
   padding: 7px 16px;
   margin-bottom: 22px;
-  border: 1px solid rgba(0, 198, 255, 0.4);
+  border: 1px solid rgba(77, 163, 255, 0.4);
   border-radius: 999px;
-  background: rgba(0, 198, 255, 0.08);
-  color: #7fdcff;
+  background: rgba(77, 163, 255, 0.08);
+  color: #b3d7ff;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.6px;
@@ -65,7 +65,7 @@
 }
 
 .hero h1 span {
-  background: linear-gradient(90deg, #00c6ff, #4facfe);
+  background: linear-gradient(90deg, #4da3ff, #7dbbff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -76,7 +76,7 @@
   margin: 0 auto 34px;
   font-size: 18px;
   line-height: 1.65;
-  color: #cbd8f0;
+  color: #d0def4;
 }
 
 .hero-buttons {
@@ -98,9 +98,9 @@
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, #00c6ff, #4facfe);
+  background: linear-gradient(90deg, #4da3ff, #7dbbff);
   color: #07102a;
-  box-shadow: 0 8px 24px rgba(0, 198, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(77, 163, 255, 0.3);
 }
 
 .btn-whatsapp {
@@ -126,7 +126,7 @@
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.05);
-  color: #e3ebf9;
+  color: #e6eefa;
   font-size: 14px;
 }
 
