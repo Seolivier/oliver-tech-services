@@ -1,0 +1,262 @@
+.admin {
+  min-height: 70vh;
+  padding: 60px 20px 80px;
+  background: #1e40af;
+  color: #fff;
+}
+
+.admin-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+.admin button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #93dcff;
+  color: #0b2a6f;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.admin button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.admin button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.admin .admin-ghost {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #5b94f5;
+}
+
+.admin .admin-danger {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Login */
+.admin-login-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-login {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 34px 30px;
+  border: 1px solid #5b94f5;
+  border-radius: 16px;
+  background: #2563eb;
+  text-align: center;
+}
+
+.admin-login h1 {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.admin-login p {
+  color: #d6e3ff;
+  font-size: 14.5px;
+}
+
+.admin input {
+  padding: 13px 14px;
+  border: 1px solid #5b94f5;
+  border-radius: 10px;
+  background: #1e40af;
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.admin input::placeholder {
+  color: #a8c0f5;
+}
+
+.admin input:focus {
+  outline: none;
+  border-color: #93dcff;
+}
+
+.admin .admin-error {
+  color: #fecaca;
+  font-size: 14px;
+}
+
+/* Dashboard header */
+.admin-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.admin-top h1 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.admin-top p {
+  margin-top: 4px;
+  color: #c7d9ff;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Search and filters */
+.admin-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.admin-tools input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.admin-filters {
+  display: flex;
+  gap: 8px;
+}
+
+.admin .admin-filters button {
+  background: transparent;
+  color: #dde8ff;
+  border: 1px solid #5b94f5;
+}
+
+.admin .admin-filters button.active {
+  background: #fff;
+  color: #1e3a8a;
+  border-color: #fff;
+}
+
+.admin-empty {
+  padding: 40px 0;
+  text-align: center;
+  color: #c7d9ff;
+}
+
+/* Message cards */
+.admin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-card {
+  padding: 22px;
+  border: 1px solid #5b94f5;
+  border-radius: 14px;
+  background: #2563eb;
+}
+
+.admin-card.is-done {
+  opacity: 0.7;
+}
+
+.admin-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.admin-card h3 {
+  font-size: 18px;
+}
+
+.admin-date {
+  font-size: 13px;
+  color: #c7d9ff;
+}
+
+.admin-badge {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.admin-badge-new {
+  background: #ff6b35;
+  color: #fff;
+}
+
+.admin-badge-done {
+  background: #bbf7d0;
+  color: #14532d;
+}
+
+.admin-message {
+  margin-bottom: 16px;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: #edf2ff;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.admin-card-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.admin-card-foot a {
+  padding: 9px 14px;
+  border: 1px solid #5b94f5;
+  border-radius: 8px;
+  color: #dff4ff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.admin-card-foot a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+  .admin {
+    padding: 40px 14px 60px;
+  }
+
+  .admin-top h1 {
+    font-size: 25px;
+  }
+
+  .admin-card-foot button,
+  .admin-card-foot a {
+    flex: 1 1 calc(50% - 10px);
+    text-align: center;
+  }
+}
+
+
+

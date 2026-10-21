@@ -9,6 +9,7 @@ import ServicesPage from './pages/ServicesPage.jsx';
 import About from './pages/About.jsx';
 import ContactPage from './pages/ContactPage.jsx';
 import './App.css';
+import Admin from './pages/Admin.jsx';
 
 function App() {
   const [selectedService, setSelectedService] = useState('');
@@ -25,6 +26,7 @@ function App() {
       <Header />
       <main>
         <Routes>
+          <Route path="/admin" element={<Admin />} />
           <Route path="/" element={<Home />} />
           <Route
             path="/services"
