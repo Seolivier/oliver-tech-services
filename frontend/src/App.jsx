@@ -4,6 +4,7 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import WhatsAppButton from './components/WhatsAppButton.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
+import PageMeta from './components/PageMeta.jsx';
 import Home from './pages/Home.jsx';
 import ServicesPage from './pages/ServicesPage.jsx';
 import About from './pages/About.jsx';
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <ScrollToTop />
+     <PageMeta />
       <Header />
       <main>
         <Routes>
